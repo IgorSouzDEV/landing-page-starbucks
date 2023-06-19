@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    height: 12.5rem;
+    padding: 1.25rem;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 1.8rem;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+section.about {
+    height: calc(100% - 12.5rem);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -35rem;
+    right: -20rem;
+    width: 60rem;
+    height: 70rem;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.social-media {
+    position: absolute;
+    right: 21rem;
+    top: 5rem;
+}
+
+.social-media img {
+    display: block;
+    width: 3rem;
+    margin: 2rem 0;
+}
+
+div .text-about span {
+    color: #017143;
+}
+
+.text-about {
+    margin-top: 5rem;
+}
+
+.text-about h1 {
+    font-size: 4rem;
+}
+
+.text-about p {
+    margin: 1rem 0;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    max-width: 43rem;
+}
+
+.text-about button {
+    border: 0;
+    background-color: #017143;
+    border-radius: 1rem;
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.text-about a {
+    text-decoration: none;
+    color: #fff;
+}
